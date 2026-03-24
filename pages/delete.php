@@ -1,7 +1,6 @@
- <!-- Footer -->
-<?php  include "../header.php" ?>
-
-<?php 
+<?php  
+     include "../header.php";
+     
      if(isset($_GET['delete']))
      {
          $etudiantid= $_GET['delete'];
@@ -16,7 +15,7 @@
              exit();
          }
      }
-              ?>
+?>
 
   <!-- Footer -->
 <?php include "footer.php" ?>

@@ -43,7 +43,7 @@
 
               echo " <td class='text-center' > <a href='update.php?edit&etudiant_id={$id}' class='btn btn-secondary'><i class='bi bi-pencil'></i> MODIFIER</a> </td>";
 
-              echo " <td  class='text-center'>  <a href='delete.php?delete={$id}' class='btn btn-danger'> <i class='bi bi-trash'></i> SUPPRIMER</a> </td>";
+              echo " <td  class='text-center'>  <a href='delete.php?delete={$id}' class='btn btn-danger' onclick='return confirm(\"Êtes-vous sûr de vouloir supprimer cet étudiant ?\");'> <i class='bi bi-trash'></i> SUPPRIMER</a> </td>";
               echo " </tr> ";
                   }  
                 ?>

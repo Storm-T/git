@@ -1,7 +1,7 @@
 <?php
 // Informations d'identification
-define('DB_SERVER', 'greendevpartners.com');
-define('DB_USERNAME', 'gituser');
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'c2635582c_gituser');
 define('DB_PASSWORD', 'git@2026');
 define('DB_PORT',3306);
 define('DB_NAME', 'c2635582c_git');

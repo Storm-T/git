@@ -1,5 +1,5 @@
 <?php  
-     include "../header.php";
+     include "../config.php";
      
      if(isset($_GET['delete']))
      {
@@ -18,4 +18,4 @@
 ?>
 
   <!-- Footer -->
-<?php include "footer.php" ?>
+<?php include "../footer.php" ?>

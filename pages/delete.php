@@ -9,8 +9,12 @@
          // SQL query to delete data from user table where id = $userid
          $query = "DELETE FROM etudiants WHERE Id_Etudiant = {$etudiantid}"; 
          $delete_query= mysqli_query($conn, $query);
-         header("Location: home.php");
-         header("Location: home.php");
+         
+         if($delete_query)
+         {
+             header("Location: home.php");
+             exit();
+         }
      }
               ?>
 

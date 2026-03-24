@@ -10,6 +10,7 @@
          $query = "DELETE FROM etudiants WHERE Id_Etudiant = {$etudiantid}"; 
          $delete_query= mysqli_query($conn, $query);
          header("Location: home.php");
+         header("Location: home.php");
      }
               ?>
 
